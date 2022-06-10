@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  background-color: #edededf8;
+}
+
+h1 {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 80px;
+  text-shadow: rgb(0 0 0 / 25%) 0px 1px 4px;
+}
+
+.main {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+/* GRID */
+
+#grid {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+  align-self: stretch;
+  height: 500px;
+  width: 500px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 3px 8px;
+  border-width: 2px;
+  margin-left: 100px;
+  background-color: white;
+}
+.big-grid {
+  display: flex;
+}
+.medium-grid {
+  display: flex;
+}
+.small-grid {
+  display: flex;
+}
+
+/* CELLS */
+
+.one {
+  background-color: #eeaeca;
+}
+.two {
+  background-color: #e7afcc;
+}
+.three {
+  background-color: #dfb0cf;
+}
+.four {
+  background-color: #d4b2d2;
+}
+.five {
+  background-color: #c9b3d6;
+}
+.six {
+  background-color: #beb5da;
+}
+.seven {
+  background-color: #b7b6dd;
+}
+.eight {
+  background-color: #adb7e0;
+}
+.plain {
+  background-color: white;
+}
+
+/* BUTTONS */
+
+button {
+  font-family: "Roboto Mono", monospace;
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: rgb(144, 126, 185) -5px 5px 0px;
+}
+button:hover {
+  transform: translate(3px);
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+}
+
+.big-button {
+}
+.medium-button {
+}
+.small-button {
+}
+.draw {
+}
+.erase {
+}
+.reset {
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+  margin-top: 35px;
+}
+
+.fa-github {
+  color: rgb(66, 72, 83);
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-github:hover {
+  transform: rotate(360deg) scale(1.2);
+}
