@@ -6,13 +6,14 @@ body {
   justify-content: space-between;
   font-family: "Roboto Mono", monospace;
   font-size: 20px;
-  background-color: #a8acecf8;
+  background-color: #c7caf3f8;
 }
 
 h1 {
   margin-top: 20px;
   font-family: "Roboto", sans-serif;
   font-size: 80px;
+  color: rgb(66, 72, 83);
 }
 
 .main {
@@ -44,67 +45,28 @@ h1 {
   flex-grow: 1;
 }
 
-/* CELLS */
-
-.one {
-  background-color: #eeaeca;
-}
-.two {
-  background-color: #e7afcc;
-}
-.three {
-  background-color: #dfb0cf;
-}
-.four {
-  background-color: #d4b2d2;
-}
-.five {
-  background-color: #c9b3d6;
-}
-.six {
-  background-color: #beb5da;
-}
-.seven {
-  background-color: #b7b6dd;
-}
-.eight {
-  background-color: #adb7e0;
-}
-.plain {
-  background-color: white;
-}
-
 /* BUTTONS */
 
 button {
   font-family: "Roboto Mono", monospace;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
+  color: white;
   margin-bottom: 10px;
   margin-top: 10px;
   padding: 8px;
-  border-style: solid;
-  border-color: whitesmoke;
+  border-style: none;
   border-radius: 8px;
-  background-color: #a8acecf8;
+  background-color: rgb(66, 72, 83);
+}
+
+button:hover {
+  background-color: rgb(50, 56, 66);
 }
 
 .settings {
   display: flex;
   flex-direction: column;
-}
-
-.big-button {
-}
-.medium-button {
-}
-.small-button {
-}
-.draw {
-}
-.erase {
-}
-.reset {
 }
 
 /* FOOTER */
