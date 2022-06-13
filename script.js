@@ -76,7 +76,7 @@ function changeColor(e) {
 
 bigButton.onclick = function () {
   grid.innerHTML = "";
-  size = 64;
+  size = 16;
   makeRows();
   makeCells();
 };
@@ -89,7 +89,7 @@ mediumButton.onclick = function () {
 };
 smallButton.onclick = function () {
   grid.innerHTML = "";
-  size = 16;
+  size = 64;
   makeRows();
   makeCells();
 };
